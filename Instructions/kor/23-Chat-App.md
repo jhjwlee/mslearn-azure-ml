@@ -259,6 +259,12 @@
 8.  VS Code Online 편집기에서 CTRL+S (또는 Cmd+S)를 사용하여 코드 파일의 변경 내용을 저장합니다.
 
 #### Azure에 로그인하고 앱 실행 (Sign into Azure and run the app)
+0. Azure CLI 설치 (Codespaces 환경):
+VS Code Online 터미널에서 다음 명령을 입력하여 Azure CLI를 설치합니다. (Codespaces 환경에는 기본적으로 설치되어 있지 않을 수 있습니다.)
+    ```bash
+    curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+    ```
+    설치가 완료될 때까지 기다립니다. 설치 중 sudo 암호를 묻지는 않지만, 만약 터미널이 일반 사용자 권한이라면 sudo가 필요합니다. Codespaces의 기본 터미널은 일반적으로 이러한 권한을 가지고 있습니다. 설치 후 터미널을 새로고침하거나 새 터미널을 열어야 할 수도 있습니다.
 
 1.  VS Code Online 터미널에서 다음 명령을 입력하여 Azure에 로그인합니다.
 
